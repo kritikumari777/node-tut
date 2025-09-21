@@ -10,3 +10,5 @@ async function dbConnect(){
 }
 
 module.exports = dbConnect;
+
+// mongodb - not structured
