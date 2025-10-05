@@ -19,10 +19,10 @@
 // fs("second.txt", "secound file")
 
 const http = require('http');
-// http.createServer( (req, resp) => {
-//     resp.write("sent the response");
-//     resp.end();
-// }).listen(4500)  
+http.createServer( (req, resp) => {
+    resp.write("sent the response");
+    resp.end();
+}).listen(4500)  
 
 // const dataControl = (req, resp) => {
 //     resp.write("second response");
